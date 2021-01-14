@@ -1,6 +1,6 @@
 <?php
 try {
-    $dsn = 'mysql:host=localhost;db_name=blog;';
+    $dsn = 'mysql:host=localhost;dbname=blog;';
     $user = 'root';
     $pass = '';
     $options = [

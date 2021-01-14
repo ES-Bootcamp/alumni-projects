@@ -1,5 +1,10 @@
 <?php require '../layouts/header.layout.php'; ?>
 <?php include '../partials/navbar.partial.php'; ?>
+<?php 
+if(!isset($_SESSION['logged_in'])) {
+  header('Location: ../login.php?prompt=true');
+}
+?>
 <div class="container">
   <div class="row py-4">
     <h1>Add new article</h1>

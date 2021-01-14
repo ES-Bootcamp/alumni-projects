@@ -1,6 +1,7 @@
 <?php 
+session_start();
 function css($name){
-    return 'http://localhost/blog/assets/css/' . $name;
+    return 'http://localhost/alumni/blog/assets/css/' . $name;
 }
 ?>
 <!DOCTYPE html>
